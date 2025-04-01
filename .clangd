@@ -1,0 +1,19 @@
+InlayHints:
+  Enabled: No
+  ParameterNames: No
+  DeducedTypes: No
+---
+CompileFlags:    
+    Add: 
+        - -Wall
+        - -Wno-unused-function
+        - -Wno-unused-variable
+        - -Iinclude
+--- 
+If:
+    PathMatch: 
+        - .*\.cpp
+        - .*\.hpp
+CompileFlags:
+    Add: 
+        - -std=c++20

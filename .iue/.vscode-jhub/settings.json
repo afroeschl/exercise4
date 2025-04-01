@@ -1,0 +1,13 @@
+{
+    "cmake.debugConfig": {
+        "type": "lldb",
+        "cwd": "${workspaceFolder}",
+        "preRunCommands": [ "breakpoint set --name main" ]
+    },
+    "lldb.adapterEnv": {
+        "LLDB_DEBUGSERVER_PATH": "/usr/bin/lldb-server-18"
+    },
+    "lldb.verboseLogging": true,
+    "lldb.showDisassembly": "never",
+    "lldb.consoleMode": "evaluate"
+}

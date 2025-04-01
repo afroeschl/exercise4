@@ -1,0 +1,13 @@
+{
+    "cmake.debugConfig": {
+        "type": "cppdbg",
+        "cwd": "${workspaceFolder}",
+        "stopAtEntry": true,
+        "setupCommands": [
+            { "text": "-enable-pretty-printing" },
+            { "text": "skip -gfi /usr/include/c++/*/*/*" },
+            { "text": "skip -gfi /usr/include/c++/*/*" },
+            { "text": "skip -gfi /usr/include/c++/*" }
+        ]
+    }
+}
